@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EECD91301B4B8A7F00706B8B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EECD912F1B4B8A7F00706B8B /* main.m */; };
+		EECD91331B4B8A7F00706B8B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EECD91321B4B8A7F00706B8B /* AppDelegate.m */; };
+		EECD91361B4B8A7F00706B8B /* FindDiscountApps.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EECD91341B4B8A7F00706B8B /* FindDiscountApps.xcdatamodeld */; };
+		EECD91391B4B8A7F00706B8B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EECD91381B4B8A7F00706B8B /* ViewController.m */; };
+		EECD913C1B4B8A7F00706B8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EECD913A1B4B8A7F00706B8B /* Main.storyboard */; };
+		EECD913E1B4B8A7F00706B8B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EECD913D1B4B8A7F00706B8B /* Images.xcassets */; };
+		EECD91411B4B8A7F00706B8B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EECD913F1B4B8A7F00706B8B /* LaunchScreen.xib */; };
+		EECD914D1B4B8A7F00706B8B /* FindDiscountAppsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EECD914C1B4B8A7F00706B8B /* FindDiscountAppsTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EECD91471B4B8A7F00706B8B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EECD91221B4B8A7E00706B8B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EECD91291B4B8A7E00706B8B;
+			remoteInfo = FindDiscountApps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EECD912A1B4B8A7F00706B8B /* FindDiscountApps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindDiscountApps.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECD912E1B4B8A7F00706B8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECD912F1B4B8A7F00706B8B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EECD91311B4B8A7F00706B8B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EECD91321B4B8A7F00706B8B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EECD91351B4B8A7F00706B8B /* FindDiscountApps.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FindDiscountApps.xcdatamodel; sourceTree = "<group>"; };
+		EECD91371B4B8A7F00706B8B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EECD91381B4B8A7F00706B8B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EECD913B1B4B8A7F00706B8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EECD913D1B4B8A7F00706B8B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EECD91401B4B8A7F00706B8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EECD91461B4B8A7F00706B8B /* FindDiscountAppsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindDiscountAppsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EECD914B1B4B8A7F00706B8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EECD914C1B4B8A7F00706B8B /* FindDiscountAppsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindDiscountAppsTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EECD91271B4B8A7E00706B8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECD91431B4B8A7F00706B8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EECD91211B4B8A7E00706B8B = {
+			isa = PBXGroup;
+			children = (
+				EECD912C1B4B8A7F00706B8B /* FindDiscountApps */,
+				EECD91491B4B8A7F00706B8B /* FindDiscountAppsTests */,
+				EECD912B1B4B8A7F00706B8B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EECD912B1B4B8A7F00706B8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EECD912A1B4B8A7F00706B8B /* FindDiscountApps.app */,
+				EECD91461B4B8A7F00706B8B /* FindDiscountAppsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EECD912C1B4B8A7F00706B8B /* FindDiscountApps */ = {
+			isa = PBXGroup;
+			children = (
+				EECD91311B4B8A7F00706B8B /* AppDelegate.h */,
+				EECD91321B4B8A7F00706B8B /* AppDelegate.m */,
+				EECD91371B4B8A7F00706B8B /* ViewController.h */,
+				EECD91381B4B8A7F00706B8B /* ViewController.m */,
+				EECD913A1B4B8A7F00706B8B /* Main.storyboard */,
+				EECD913D1B4B8A7F00706B8B /* Images.xcassets */,
+				EECD913F1B4B8A7F00706B8B /* LaunchScreen.xib */,
+				EECD91341B4B8A7F00706B8B /* FindDiscountApps.xcdatamodeld */,
+				EECD912D1B4B8A7F00706B8B /* Supporting Files */,
+			);
+			path = FindDiscountApps;
+			sourceTree = "<group>";
+		};
+		EECD912D1B4B8A7F00706B8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECD912E1B4B8A7F00706B8B /* Info.plist */,
+				EECD912F1B4B8A7F00706B8B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EECD91491B4B8A7F00706B8B /* FindDiscountAppsTests */ = {
+			isa = PBXGroup;
+			children = (
+				EECD914C1B4B8A7F00706B8B /* FindDiscountAppsTests.m */,
+				EECD914A1B4B8A7F00706B8B /* Supporting Files */,
+			);
+			path = FindDiscountAppsTests;
+			sourceTree = "<group>";
+		};
+		EECD914A1B4B8A7F00706B8B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EECD914B1B4B8A7F00706B8B /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EECD91291B4B8A7E00706B8B /* FindDiscountApps */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECD91501B4B8A7F00706B8B /* Build configuration list for PBXNativeTarget "FindDiscountApps" */;
+			buildPhases = (
+				EECD91261B4B8A7E00706B8B /* Sources */,
+				EECD91271B4B8A7E00706B8B /* Frameworks */,
+				EECD91281B4B8A7E00706B8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindDiscountApps;
+			productName = FindDiscountApps;
+			productReference = EECD912A1B4B8A7F00706B8B /* FindDiscountApps.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EECD91451B4B8A7F00706B8B /* FindDiscountAppsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EECD91531B4B8A7F00706B8B /* Build configuration list for PBXNativeTarget "FindDiscountAppsTests" */;
+			buildPhases = (
+				EECD91421B4B8A7F00706B8B /* Sources */,
+				EECD91431B4B8A7F00706B8B /* Frameworks */,
+				EECD91441B4B8A7F00706B8B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EECD91481B4B8A7F00706B8B /* PBXTargetDependency */,
+			);
+			name = FindDiscountAppsTests;
+			productName = FindDiscountAppsTests;
+			productReference = EECD91461B4B8A7F00706B8B /* FindDiscountAppsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EECD91221B4B8A7E00706B8B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = lyang;
+				TargetAttributes = {
+					EECD91291B4B8A7E00706B8B = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					EECD91451B4B8A7F00706B8B = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = EECD91291B4B8A7E00706B8B;
+					};
+				};
+			};
+			buildConfigurationList = EECD91251B4B8A7E00706B8B /* Build configuration list for PBXProject "FindDiscountApps" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EECD91211B4B8A7E00706B8B;
+			productRefGroup = EECD912B1B4B8A7F00706B8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EECD91291B4B8A7E00706B8B /* FindDiscountApps */,
+				EECD91451B4B8A7F00706B8B /* FindDiscountAppsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EECD91281B4B8A7E00706B8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECD913C1B4B8A7F00706B8B /* Main.storyboard in Resources */,
+				EECD91411B4B8A7F00706B8B /* LaunchScreen.xib in Resources */,
+				EECD913E1B4B8A7F00706B8B /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECD91441B4B8A7F00706B8B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EECD91261B4B8A7E00706B8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECD91331B4B8A7F00706B8B /* AppDelegate.m in Sources */,
+				EECD91361B4B8A7F00706B8B /* FindDiscountApps.xcdatamodeld in Sources */,
+				EECD91391B4B8A7F00706B8B /* ViewController.m in Sources */,
+				EECD91301B4B8A7F00706B8B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EECD91421B4B8A7F00706B8B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EECD914D1B4B8A7F00706B8B /* FindDiscountAppsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EECD91481B4B8A7F00706B8B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EECD91291B4B8A7E00706B8B /* FindDiscountApps */;
+			targetProxy = EECD91471B4B8A7F00706B8B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EECD913A1B4B8A7F00706B8B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECD913B1B4B8A7F00706B8B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EECD913F1B4B8A7F00706B8B /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EECD91401B4B8A7F00706B8B /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EECD914E1B4B8A7F00706B8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EECD914F1B4B8A7F00706B8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EECD91511B4B8A7F00706B8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindDiscountApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EECD91521B4B8A7F00706B8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FindDiscountApps/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EECD91541B4B8A7F00706B8B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindDiscountAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindDiscountApps.app/FindDiscountApps";
+			};
+			name = Debug;
+		};
+		EECD91551B4B8A7F00706B8B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FindDiscountAppsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindDiscountApps.app/FindDiscountApps";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EECD91251B4B8A7E00706B8B /* Build configuration list for PBXProject "FindDiscountApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECD914E1B4B8A7F00706B8B /* Debug */,
+				EECD914F1B4B8A7F00706B8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EECD91501B4B8A7F00706B8B /* Build configuration list for PBXNativeTarget "FindDiscountApps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECD91511B4B8A7F00706B8B /* Debug */,
+				EECD91521B4B8A7F00706B8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EECD91531B4B8A7F00706B8B /* Build configuration list for PBXNativeTarget "FindDiscountAppsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EECD91541B4B8A7F00706B8B /* Debug */,
+				EECD91551B4B8A7F00706B8B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		EECD91341B4B8A7F00706B8B /* FindDiscountApps.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EECD91351B4B8A7F00706B8B /* FindDiscountApps.xcdatamodel */,
+			);
+			currentVersion = EECD91351B4B8A7F00706B8B /* FindDiscountApps.xcdatamodel */;
+			path = FindDiscountApps.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = EECD91221B4B8A7E00706B8B /* Project object */;
+}
